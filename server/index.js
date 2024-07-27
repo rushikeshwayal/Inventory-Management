@@ -2,15 +2,14 @@ import express from 'express';
 import pg from 'pg';
 import cors from 'cors';
 import bcrypt from 'bcrypt';
+import path from 'path';
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // Middleware to parse JSON and handle CORS
 app.use(express.json());
-app.use(cors({
-  origin: 'http://localhost:3000'
-}));
+app.use(cors());
 
 // PostgreSQL client setup
 const db = new pg.Client({
@@ -30,8 +29,11 @@ db.connect((err) => {
   }
 });
 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../client/build')));
+
 // Define API route to fetch items
-app.get('/', async (req, res) => {
+app.get('/api/items', async (req, res) => {
   try {
     const result = await db.query('SELECT * FROM items');
     res.json(result.rows);
@@ -42,7 +44,7 @@ app.get('/', async (req, res) => {
 });
 
 // Define API route to fetch users
-app.get('/users', async (req, res) => {
+app.get('/api/users', async (req, res) => {
   try {
     const result = await db.query('SELECT * FROM users');
     res.json(result.rows);
@@ -97,6 +99,11 @@ app.post('/api/login', async (req, res) => {
     console.error('Error during login:', err);
     res.status(500).json({ message: 'Login failed' });
   }
+});
+
+// The "catchall" handler: for any request that doesn't match one above, send back the React index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
 // Start the server
