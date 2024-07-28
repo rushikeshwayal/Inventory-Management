@@ -81,11 +81,29 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 
 ## Web Flow
 
+![Workflow Diagram](./images/Screenshot%20(100).png)
 
 
+![Workflow Diagram](./images/Screenshot%20(102).png)
+
+![Workflow Diagram](./images/Screenshot%20(101).png)
 
 
+![Workflow Diagram](./images/Screenshot%20(103).png)
 
+![Workflow Diagram](./images/Screenshot%20(104).png)
+
+![Workflow Diagram](./images/Screenshot%20(105).png)
+
+
+![Workflow Diagram](./images/Screenshot%20(106).png)
+
+![Workflow Diagram](./images/Screenshot%20(107).png)
+
+![Workflow Diagram](./images/Screenshot%20(108).png)
+
+
+![Workflow Diagram](./images/Screenshot%20(109).png)
 
 
 
