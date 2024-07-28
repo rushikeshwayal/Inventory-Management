@@ -1,6 +1,4 @@
-Here's the updated README file with additional details about the admin portal, which provides graphical analysis and insights into inventory and transactions:
-
----
+https://github.com/rushikeshwayal/my-app-
 
 # Inventory Management System for Municipal Corporations
 
@@ -138,8 +136,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact [Your Name] at [your email address].
+For any questions or feedback, please contact rushikeshwayal at rushikwayal6@gmail.com
 
----
-
-Feel free to further customize this README to fit your specific project's details and requirements. Let me know if there's anything else you'd like to add or modify!
