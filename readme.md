@@ -1,4 +1,4 @@
-Here is the updated README file with additional details about alerts, audit solutions, transaction tracking using QR codes, and invoice generation:
+Here's the updated README file with additional details about the admin portal, which provides graphical analysis and insights into inventory and transactions:
 
 ---
 
@@ -38,6 +38,8 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 
 10. **Invoice Generation**: Automatically generate invoices for each transaction, ensuring proper documentation and accountability.
 
+11. **Admin Portal**: An admin portal to view all inventory data and transaction history in graphical form, offering insights and analysis to assist in decision-making.
+
 ## Features
 
 - **NLP for Shelf Life Determination**: Utilize NLP algorithms to automatically assess the shelf life of products based on product type, storage conditions, and other relevant factors.
@@ -49,6 +51,8 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 - **Real-Time Notifications**: Immediate alerts for low stock, expired items, and critical inventory events delivered through email and SMS.
 
 - **Comprehensive Reporting**: Generate detailed reports on inventory status, historical data, and trends to assist in decision-making. Reports include transaction history with timestamps.
+
+- **Admin Portal with Graphical Analysis**: The admin portal provides visualizations of inventory levels, transaction trends, and other key metrics, enabling administrators to make informed decisions.
 
 - **Scalability**: Designed to accommodate the growing needs of municipal corporations as their inventory requirements expand.
 
@@ -78,16 +82,14 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 
 6. Access the application in your web browser at `http://localhost:3000`.
 
-
 ## Web Flow
+#### Department Head
 
 ![Workflow Diagram](./images/Screenshot%20(100).png)
-
 
 ![Workflow Diagram](./images/Screenshot%20(102).png)
 
 ![Workflow Diagram](./images/Screenshot%20(101).png)
-
 
 ![Workflow Diagram](./images/Screenshot%20(103).png)
 
@@ -95,18 +97,21 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 
 ![Workflow Diagram](./images/Screenshot%20(105).png)
 
-
 ![Workflow Diagram](./images/Screenshot%20(106).png)
 
 ![Workflow Diagram](./images/Screenshot%20(107).png)
 
 ![Workflow Diagram](./images/Screenshot%20(108).png)
 
-
 ![Workflow Diagram](./images/Screenshot%20(109).png)
 
 
 
+## Admin Portal
+
+![Workflow Diagram](./images/Screenshot%20(113).png)
+
+![Workflow Diagram](./images/Screenshot%20(114).png)
 ## Usage
 
 1. **Product Entry**: Enter new products into the system, which will generate a unique QR code for tracking.
@@ -120,6 +125,8 @@ Our proposed Inventory Management System will enhance the efficiency, accuracy, 
 5. **Conduct Audits**: Utilize built-in audit solutions to ensure inventory accuracy and compliance.
 
 6. **Generate Invoices**: Automatically generate invoices for each transaction to document inventory movement and changes.
+
+7. **Admin Portal**: Use the admin portal to view graphical analyses of inventory levels, transaction history, and other key metrics to make informed decisions.
 
 ## Contributing
 
@@ -135,4 +142,4 @@ For any questions or feedback, please contact [Your Name] at [your email address
 
 ---
 
-Feel free to customize any section further based on your project's specific features and requirements. Let me know if there's anything else you'd like to add or modify!
+Feel free to further customize this README to fit your specific project's details and requirements. Let me know if there's anything else you'd like to add or modify!
