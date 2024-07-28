@@ -8,6 +8,9 @@ import { fileURLToPath } from "url";
 const app = express();
 const port = process.env.PORT || 5000;
 
+
+app.use('/api/alerts', alertsRouter);
+
 // Middleware to parse JSON and handle CORS
 app.use(express.json({ limit: '50mb' })); // Increase the limit to 50MB or adjust as needed
 app.use(express.urlencoded({ limit: '50mb', extended: true })); // For form submissions
